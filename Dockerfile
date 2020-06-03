@@ -4,7 +4,9 @@ RUN yum install sudo -y
  
 RUN yum install httpd -y
 
-COPY nitz.php /var/www/html
+RUN yum install php -y 
+
+COPY nit.html  /var/www/html
 
 CMD /usr/sbin/httpd -DFOREGROUND
 
