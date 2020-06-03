@@ -1,9 +1,5 @@
-<!DOCTYPE html>
-<html>
-<body>
+Update code guys
 
-<?php
-echo "My first PHP script!";
-?>
 
-</body>
+
+
